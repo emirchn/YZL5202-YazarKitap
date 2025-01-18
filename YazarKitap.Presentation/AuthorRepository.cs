@@ -2,7 +2,7 @@
 
 namespace YazarKitap.Presentation
 {
-    internal class AuthorRepository
+    public class AuthorRepository
     {
         private ProjectContext context;
 

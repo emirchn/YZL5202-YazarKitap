@@ -2,7 +2,6 @@ using YazarKitap.Dal.Context;
 using YazarKitap.Entity.Models.Concrete;
 using YazarKitap.Presentation.Infrastruccture;
 
-
 namespace YazarKitap.Presentation
 {
     public partial class Form1 : Form
@@ -15,7 +14,7 @@ namespace YazarKitap.Presentation
         }
 
         private readonly ProjectContext _context;
-        private AuthorRepository _aRepo;
+        private YazarKitap.Dal.Repository.Concrete.AuthorRepository _aRepo;
 
         private void Form1_Load(object sender, EventArgs e)
         {
